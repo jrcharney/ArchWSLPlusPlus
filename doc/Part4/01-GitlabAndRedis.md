@@ -1,4 +1,5 @@
-Part 4: More > Gitlab and Redis
+:: Part 4: More > Gitlab and Redis
+
 ---
 
 > NOTE: This document is under construction. There's some things that need to be sorted out.

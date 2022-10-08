@@ -1,4 +1,5 @@
-Part 1: The Windows Part > Install ArchWSL
+:: Part 1: The Windows Part > Install ArchWSL
+
 ---
 
 # Install ArchWSL

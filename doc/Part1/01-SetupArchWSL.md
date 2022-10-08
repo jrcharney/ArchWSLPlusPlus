@@ -1,4 +1,5 @@
-Part 1: The Windows Part > How to setup ArchLinux for WSL
+:: Part 1: The Windows Part > How to setup ArchLinux for WSL
+
 ---
 
 # How to set up ArchLinux for WSL
