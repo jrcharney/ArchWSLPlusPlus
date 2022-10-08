@@ -1,6 +1,6 @@
 # ArchWSL++
 
-This project is a step-by-step guide to set up Windows Subsystem for Linux (WSL) to use Arch Linux with ArchWSL and to set up a lot of cool features. Use this to set up a great software environment whether you are using Vim or VS Code!
+This project is a step-by-step guide to set up [Windows Subsystem for Linux](https://learn.microsoft.com/en-us/windows/wsl/) (WSL) to use [Arch Linux](https://archlinux.org/) with [ArchWSL](https://github.com/yuk7/ArchWSL) and to set up a lot of cool features. Use this to set up a great software environment whether you are using Vim or VS Code!
 
 ## Features
 
@@ -12,17 +12,19 @@ Linux experts will say "That seems like a lot of basic stuff?" Yeah, because mos
 
 Instructors and Linux Newbies will say "This is too much!" It's not! What's available is often *too little!*  It also doesn't offer a cohesive environment to develop software using the features that are available.
 
-Stop coding like it's 1997!  If you are new to programming or want all that cool stuff that Linux users have but are stuck using Windows, don't settle for MINGW64!  Make use of that new stuff!  We can work with VS Code. Eventually, I plan on adding files for Neovim.
+**Stop coding like it's 1997!**  If you are new to programming or want all that cool stuff that Linux users have but are stuck using Windows, don't settle for MINGW64!  Make use of that new stuff!  We can work with VS Code. Eventually, I plan on adding files for Neovim.
 
 My only regret is not getting this all to work in one big script (or at least a few scripts) to automate it all.
 
 ## Start in the `doc` directory!
 
-The `doc` directory is where to start. There is a sequence you need to follow to make it work.
+The `doc` directory is where to [start](doc/00-START_HERE.md). There is a sequence you need to follow to make it work.
 
 ## We have dotfiles!
 
+There are example [dotfiles](dotfiles) that can be useful.
+
 While I don't recommend using these dotfiles for, I do recommend using them as examples. There are some line you need to type yourself to familiarize yourself with how Linux does things.
 
-I've added some fun "toys" to show off some of the fun things linux can do.
+I've added some fun ["toys"](doc/Part2/02-ToysAndTools.md) to show off some of the fun things Linux can do.
 
