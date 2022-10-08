@@ -1,5 +1,7 @@
 # ArchWSL++
 
+![terminal with ArchWSL running](screenshots/ArchWSL.png)
+
 This project is a step-by-step guide to set up [Windows Subsystem for Linux](https://learn.microsoft.com/en-us/windows/wsl/) (WSL) to use [Arch Linux](https://archlinux.org/) with [ArchWSL](https://github.com/yuk7/ArchWSL) and to set up a lot of cool features. Use this to set up a great software environment whether you are using Vim or VS Code!
 
 ## Features

@@ -1,5 +1,7 @@
 # ArchWSL++
 
+![terminal with ArchWSL running](../screenshots/ArchWSL.png)
+
 **Welcome to the ArchWSL++!**  In this tutorial, you will be able to install Arch Linux in Windows Subshell for Linux using [ArchWSL](https://github.com/yuk7/ArchWSL).  In addition, some great aesthetic and functional features that most people should know about.
 
 For novice users, using Linux might seem like information overload, however, this tutorial is designed to make it more user friendly.  If you have about a couple of hours (maybe less) to spare, you can make using WSL so much more enjoyable and leverage its features to help you be more productive.
