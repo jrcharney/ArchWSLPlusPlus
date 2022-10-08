@@ -24,6 +24,8 @@ YES! WSL is fully supported in Windows 11.
 
 Window 10 Pro will support WSL, but Windows 10 Home will not.
 
+If you do have Windows 10 Pro, the the mimimum supported version is *Windows 10 1709 Fall Creators Update 64-bit*.
+
 ## Can I use this with Window 8 or older?
 
 No.
@@ -51,4 +53,9 @@ In fact, MINGW's website is gone! It was replaced with the MINGW64 website (whic
 Git Bash is basically MINGW64 repackged for Git for Windows and the Git Desktop (depricated), which was used before Github was acquired by Microsoft a few years ago.
 
 Honestly, we shold be using the new stuff.  Windows Terminal is pretty good.  Visual Studio Code is liked so much, even Linux distros have accepted it as part of their software repositories. For Arch Linux, it is in the AUR, but we're not going to install that. If you are using Windows (which this project is designed for), you should install the VS Code from the Microsoft Store app.  If you are using Windows 10, you probably don't have the Windows Terminal, but you should get it.
+
+## I have all the requirement, but it doesn't seem like it wants to install?
+
+Did you activate the Hyper-V settings?  I mention how to activate that in [How to set up ArchLinux for WSL](Part1/01-SetupArchWSL.md).  Pretty much every version of WSL needs it.
+
 
