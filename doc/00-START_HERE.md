@@ -13,7 +13,7 @@ I've decided to break this tutorial in smaller parts. The parts numbered and in 
 
 ## Part 2: The Linux Part
 
-Almost all of the Linux part is done in Bash or Zsh.
+> Almost all of the Linux part is done in Bash or Zsh.
 
 1. [Set up Arch Linux](Part2/01-SetupArchLinux.md) - Note: SSH, Git and Github are installed this part. How to use it, will be in Part 3.
 2. [A Trip to the Toy Box](Part2/02-ToysAndTools.md) - The fun parts
@@ -38,4 +38,7 @@ Almost all of the Linux part is done in Bash or Zsh.
 ## Part 5. Help and Troubleshooting
 
 1. [What to do when things won't install in ArchLinux](Part5/01-ItWontInstall.md)
+
+---
+[Next: Set up ArchWSL](Part 1/01-SetupArchWSL.md)
 

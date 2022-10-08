@@ -63,7 +63,7 @@ But that's no big deal, because the next time we start our Linux terminal, you s
 Congratulations! You now have LINUX installed on Window! This next part will add all those rad toys to it to make it look awesome and a lot less scary.
 
 ---
-[Up: Index](../00-Start_Here.md)
-[Prev: Get the NerdFonts](03-GetNerdFonts.md)
+[Up: Index](../00-START_HERE.md) &middot;
+[Prev: Get the NerdFonts](03-GetNerdFonts.md) &middot;
 [Next: Set up Arch Linux](../Part2/01-SetupArchLinux.md)
 

@@ -24,6 +24,6 @@ When the installation is completed, reboot and come back here.
 From the Microsoft Store App, you should install the [Windows Terminal](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701?hl=en-us&gl=us) application and also [Visual Studio Code](https://apps.microsoft.com/store/detail/visual-studio-code/XP9KHM4BK9FZ7Q?hl=en-us&gl=us). If you have Windows 11, you should already have Windows Terminal.
 
 ---
-[Up: Index](../00-Start_Here.md)
+[Up: Index](../00-START_HERE.md) &middot;
 [Next: Get a Windows Software Installer](02-GetScoop.md)
 

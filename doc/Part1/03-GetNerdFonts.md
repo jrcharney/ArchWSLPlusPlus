@@ -26,7 +26,7 @@ scoop install Meslo-NF Meslo-NF-Mono Hack-NF Hack-NF-Mono FiraCode-NF FiraCode-N
 You should be able to set your Windows terminal to use one of the fonts we installed by going to the settings.  A lot of folks are recommending using Meslo.
 
 ---
-[Up: Index](../00-Start_Here.md)
-[Prev: Get a Windows Software Installer](02-GetScoop.md)
+[Up: Index](../00-START_HERE.md) &middot;
+[Prev: Get a Windows Software Installer](02-GetScoop.md) &middot;
 [Next: Install ArchWSL](04-InstallArchWSL.md)
 

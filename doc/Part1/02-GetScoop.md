@@ -30,7 +30,7 @@ scoop update
 ```
 
 ---
-[Up: Index](../00-Start_Here.md)
-[Prev: How to Set up ArchLinux for WSL](01-SetupArchWSL.md)
+[Up: Index](../00-START_HERE.md) &middot;
+[Prev: How to Set up ArchLinux for WSL](01-SetupArchWSL.md) &middot;
 [Next: Get the NerdFonts](03-GetNerdFonts.md)
 
