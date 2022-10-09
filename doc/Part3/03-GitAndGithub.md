@@ -58,9 +58,33 @@ yay -S git-ignore
 > NOTE: If you are asked to install a provider for the `cargo` program, choose the `rust` option. As tempting as it is to install `rustup`, it won't work.
 > If by chance, you ignored what I said, and can't install this. use pacman to remove `rustup` (`sudo pacman -R rustup`) and start over.
 
-With `license` and `git-ignore`, you can create your 'LICENSE.txt' file and `.gitignore` files without leaving the command line.
+The `git-ignore` sofware will add a `git ignore` command that will offer some automated templates for generating a `.gitignore` file.
+
+> Note: The first time you run `git ignore` use `git ignore -u` so it updates its template database. It will do this the first time you run `git ignore`, but just to make sure the installation works correctly, you should probably run `git ignore -u` before using `git ignore` to create your `.gitignore` file.
+
+With `license` and `git ignore`, you can create your 'LICENSE.txt' file and `.gitignore` files without leaving the command line.
 
 > TODO: Add some examples as to how to use it.
+
+#### A valid use-case for a `.gitignore`
+
+In the process of writing this project and adding images, files that ende with `:Zone.Identifier` would generate and show up in `git status`. But we don't want to upload those file to our repository and when we start using automated workflow software, the colon (`:`) in those files could break our workflow and any scripts that it uses.
+
+However, our `git ignore` template database doesn't offer a `zone_identifier` as an entry to ignore those `:Zone.Identifier` files.
+
+Your best bet is to append `**/*Zone.Identifier` to your `.gitignore` manually.
+
+```bash
+echo '**/*Zone.Identifier' >> .gitignore
+```
+
+You should also delete any `:Zone.Identifier` files that show up.
+
+```bash
+find . -name "*:Zone.Identifier" -type f -delete
+```
+
+See [What to do with `:Zone.Identifier` files](../Part5/02-ItMakesZIFiles.md)
 
 ### Configure your `git config`
 

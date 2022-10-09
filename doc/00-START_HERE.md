@@ -111,13 +111,14 @@ I've decided to break this tutorial in smaller parts. The parts numbered and in 
 ## Part 5. Help and Troubleshooting
 
 1. [What to do when things won't install in ArchLinux](Part5/01-ItWontInstall.md)
+2. [What to do with `:Zone.Identifer` files](Part5/02-ItMakesZIFiles.md) - These annoying files that are generated when moving a file to a folder on WSL do have one good thing about them? A reason to make a `.gitignore` file.
 
 ### Future troubleshooting
 
 > Note: These aren't created yet. But they might be in the future.
 
-- [Github Personal Access Tokens](Part5/02-ItWontGithub.md) - How you use Github with Git has changed.
-- [Database Socket issues](Part5/03-ItSocks.md) - Somethings in MySQL never change when you are trying to get started. (This will cover Redis, MongoDB, and PostgreSQL if they have the same problem.)
+- [Github Personal Access Tokens](Part5/03-ItWontGithub.md) - How you use Github with Git has changed.
+- [Database Socket issues](Part5/04-ItSocks.md) - Somethings in MySQL never change when you are trying to get started. (This will cover Redis, MongoDB, and PostgreSQL if they have the same problem.)
 
 ---
 [Next: Set up ArchWSL](Part1/01-SetupArchWSL.md)
