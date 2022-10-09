@@ -1,0 +1,2 @@
+# Ignore those Zone.Identifier files that are generated when dragging a windows file into a Linux folder.
+**/*Zone.Identifier
