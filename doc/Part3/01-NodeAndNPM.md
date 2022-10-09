@@ -84,6 +84,21 @@ If you followed all of the instructions on this page, you likely installed a few
 
 I'm pretty sure this is nothing to worry about. (If I'm wrong, I'll edit this later.)  But you should be using [semantic versioning](https://semver.org/) on your projects anyway.
 
+One thing that might happen is that if you have the `nvm` plugin enabled on Powerlevel10k you might see this when you restart ArchWSL even if your not in a folder that is hosting a node.
+
+![nvm plugin appears on powerlevel10k](../../screenshots/nvm_p10k.png) 
+
+Since I didn't add a `nvm` plugin in `~/.zshrc`, this means that it was activated by Powerlevel10k because the it appears in the `POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS` list in `~/.p10k.zsh`.
+
+Apparently, [this should ONLY happen if the directory contains a `package.json` file](https://github.com/romkatv/powerlevel10k/issues/373).
+
+To fix this, we need to go into the `~/p10k.zsh` file, go to the `POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS` list and comment out  `nodeenv`, `nvm`, and `nodeenv`. We should also uncomment `node_version`, save the changes to the file, and restart ArchWSL. This should fix the problem.
+
+Upon restarting after performing the fix, I ran a few tests in the `Sandbox` directory and verified that this was the solution.
+
+![node version only happens when package.json is present](../../screenshots/nvm_p10k_fixed.png)
+
+
 ---
 [Up: Index](../00-START_HERE.md) &middot;
 [Prev: Taskwarrior](../Part2/04-Taskwarrior.md) &middot;
