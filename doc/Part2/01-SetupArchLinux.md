@@ -19,9 +19,11 @@ sudo pacman -S --needed base-devel git										# When you install the `base-dev
 sudo git clone https://aur.archlinux.org/yay.git							# This will install `yay` which will allow you access to the ArchLinux User Repository.
 cd yay																		# Go to the yay directory  (TODO: Could I have put this in a Downloads directory?)
 makepkg -si																	# Make the `yay` package, this will also install the Go Language (`golang`) that `yay` needs to do stuff.
+yay --version		# Verify that yay was installed.
+rm -rf ~/yay		# With yay successfully installed, you may remove the `yay` folder in your home directory.
 sudo pacman -S openssh														# Install OpenSSH so we can use SSH.
 sudo pacman -S github-cli													# Install this so we can use `gh` to do github command. (TODO: Is there something similar for gitlab?)
-sudo pacman -S fzf clang llvm rust											# Some important tools I'll talk about them later.
+sudo pacman -S pv fzf clang llvm rust											# Some important tools I'll talk about them later.
 sudo pacman -S python-pip													# Python needs pip to install some packages
 sudo pacman -S lm_sensors psutils python-psutil neofetch bashtop htop		# Install these to show system information and to manage processes in a more user-friendly way
 sudo pacman -S imagemagick													# Manipulate images from the command line. You probably won't use it a whole lot, but there's some cool stuff that is important

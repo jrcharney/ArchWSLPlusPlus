@@ -12,6 +12,7 @@ We will install the Z-shell (Zsh) as a better alternative to bash.
 We will install Oh-My-Zsh to add some plugins and aesthetic features that will make using Zsh for functional and aesthetically pleasing with Powerlevel10K.
 We will install Tmux to add features that allow us to use more than one program at the same time.
 We will add Powerline to tmux for more aesthetic features and functionality.
+We will add command line file explorers to browse around our file system. (These might be useful later.)
 
 ## Zsh 
 
@@ -76,6 +77,47 @@ I added a line to get Powerline working for Tmux.  There is a similar plugin for
 sudo pacman -S tmux																		# Install the terminal multiplexer. (We'll have some basic stuff set up in `~/.tmux.conf`)
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm						# Install the TMUX plugin manager.
 ```
+
+## File Explorers (optional)
+
+> This section is still under construction. In fact, you should probably skip it for now.
+
+There are a couple of file explorers that are worth mentioning:
+
+- [**Midnight Commander**](https://midnight-commander.org/) (`mc`) is a "side-by-side" file explorer based on a program called Norton Commander. If you've ever used [WinSCP](https://winscp.net/) to do file transfers, Midnight Commander functions with a similar interface in the command line.  This tool will defintely be useful later when we learn how to use [SSH](../Part3/02-SSH) and use a feature called Secure Copy (`scp`) as this program can be used as a user-interface to transfer file.
+- [**Ranger**](https://ranger.github.io/) (`ranger`) is a colorful file explorer written in Python that uses the `vim` keys ("h,j,k,l") or arrow keys to browse around a file system.  With the [`ueberzug`](https://github.com/seebye/ueberzug) library, you can view images in the command line.  However, this will not work if `tmux` has a split window view.
+
+```bash
+sudo pacman -S mc ranger		# A couple of command-line file explorers. Try them out.
+sudo pacman -S ueberzug			# View images in Ranger. More than likely, animated GIFs won't work. Also, it won't work if tmux is using a split window. Still workth installing.
+sudo pacman -S atool			# Add this for previews in archive files.
+sudo pacman -S highlight		# Enable code syntax highlighting when viewing source code files.
+sudo pacman -S mediainfo		# View other information about media files.
+sudo pacman -S poppler			# For PDF file previews
+sudo pacman -S libcaca			# For ASCII-art image previews.
+sudo pacman -S python-chardet		# In case of encoding dection problems.
+sudo pacman -S perl-image-exiftool	# Show image EXIF information. This might be installed already if you installed imagemagick
+sudo pacman -S w3m			# Provide previews of HTML and Images
+sudo pacman -S ffmpegthumbnailer	# Designed for previewing videos, but should work for images too.
+```
+
+> Note: I moved `ffmpegthumbnailer` down the list because you will be asked if you want to install `jack2` or `pipewire-jack`.  While `pipewire-jack` is defintely the future of the JACK API especially with `pipewire` slowly taking over audio stuff on Arch Linux (where it is now the default), picking the default option of `jack2` is still idea.  If there's any problems, uninstall `ffmpegthumbnailer` and `jack2` then try reinstalling `ffmpegthumbnailer` with `pipewire-jack`.
+
+We need to make compies of the `ranger` config files if we want to enable some features in `ranger`.
+
+> Hmm... Apparently nothing seems to get this hack going on Windows Terminal at the moment. I'm just going to table it for now.
+
+### Honorable Mention: `sixel`
+
+While trying to get that to work, I did stumble upon something else that was interesting: [**Sixel**](https://en.wikipedia.org/wiki/Sixel).
+
+Sixel was initially develoed by Digital Equipment Corporation (DEC), which was bought by Compaq in June 1998. Compaq was bought up by Hewlett-Packard (HP) in 2002. Before all that, DEC had developed Sixel for their VT200 series and VT320 computer terminals to send bitmap graphics to DEC dot matrix printers.  When the printer would be put into "sixel mode", the data would be interpreted to directly control six of the pins in the nine-pin print head.  A string of sixel characters encoded a single *six pixel* hight row of the image. Thus the name "sixel" comes from "six pixel".
+
+Hacker and Demoscene culture was interested in using this to create computer art with ASCII/ANSI character data. 
+
+Like with my attempt to get `ranger` to show images, [`sixel` also can't render images in the terminal yet](https://github.com/microsoft/terminal/issues/448) either, but [there is a lot of interest in it](https://github.com/microsoft/terminal/issues/5746).
+
+I'll defintely want to develop this section later and add some links about it.
 
 ---
 [Up: Index](../00-START_HERE.md) &middot;
