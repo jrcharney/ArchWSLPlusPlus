@@ -33,7 +33,7 @@ Appropriately, it is called [License](https://nishanths.github.io/license/) (`li
 You should install it using `yay`.
 
 ```bash
-yay -S nishanthis-license-git
+yay -S nishanths-license-git
 ```
 
 Typically, I set up an MIT Software License on a lot of my public projects, so the command to generate the `LICENSE.txt` file is
@@ -52,7 +52,7 @@ An easy way to generate a `.gitignore` file is to go to [gitignore.io](https://w
 An even better way is to download the [`git-ignore`](https://github.com/sondr3/git-ignore) package from the AUR (written in [Rust](https://www.rust-lang.org/)) that allows you to add and remove items in your `.gitignore` file from the command line.
 
 ```bash
-yay -S git-ignore
+yay -S git-ignore-bin
 ```
 
 > NOTE: If you are asked to install a provider for the `cargo` program, choose the `rust` option. As tempting as it is to install `rustup`, it won't work.
@@ -94,9 +94,10 @@ Three simple things that probably need to be done.  Fill in the blanks between t
 git config --global user.name "[firstname lastname]"
 git config --global user.email "[you@email.com]"
 git config --global color.ui auto
+git config --global init.defaultBranch main
 ```
 
-> TODO: So we don't have to rename our default branch, we should use `git config --global init.defaultBranch main` in the future.
+> Note: So we don't have to rename our default branch, we should use `git config --global init.defaultBranch main`.
 
 There's probably some other things that need to be set, but for now those are the basic items.
 
