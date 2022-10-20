@@ -63,6 +63,9 @@ At this time, I would hold off on adding `zsh-completions` or `zsh-history-subst
 
 You will need to restart `zsh` to activate these features, either with `exec zsh` or just closing any open terminals and reopening them.
 
+> **What about `oh-my-posh`?**
+> [Oh My Posh](https://ohmyposh.dev/) was inspired by Powerlevel10K and Oh-My-Zsh. As the name would imply, it was designed to make Powershell look much like a Powerlevel10k/Oh-My-Zsh set up, but it eventually it became usable on Linux as well as Windows.  Oh-My-Posh has commands that will install things like Nerdfonts if you forgot them and has a nice set of themes, though the default, `jandedobbeleer`, is pretty good.  The only thing that would make Oh-My-Posh worthy of replacing Oh-My-Zsh is it had automatic updates like Oh-My-Zsh and had an interactive program like Powerlevel10K's `p10k` to answer some questions as to what theme you want to use, if the Nerdfonts are set correctly, and what format you want to use. (Single line, concise, and lots of icons FTW.) It would also be cool if if gave you the option to pick what shell you want to use, especially since Oh-My-Posh is designed to work with this new shell called [Nushell](https://www.nushell.sh/), but doesn't make use of any of the Vim DevIcon glyphs that [`colorls`](https://github.com/athityakumar/colorls) or [`lsd`](https://github.com/Peltoche/lsd) use.  Also, if you install Oh-My-Posh from `yay`, all the themes will be installed in the `/usr/share/oh-my-posh/themes/` directory, where all the `.omp.json` files are inaccessable and have no permissions set. (I had to make a copy of the `/usr/share/oh-my-posh/themes/` directory in a folder called `~/.cache/oh-my-posh/theme/`, change the ownership for user and group, and modifiy the permissions just to get it to work right.  So setup isn't that great, but hopefully that will change in the future.
+
 ## Tmux
 
 **Tmux** is the *t*erminal *mu*ltiple*x*er.  It has featueres that are useful if your terminal goes down if you are connected to.  I have a pretty standard `~/.tmux.conf` file in the dot files directory.
@@ -77,6 +80,10 @@ I added a line to get Powerline working for Tmux.  There is a similar plugin for
 sudo pacman -S tmux																		# Install the terminal multiplexer. (We'll have some basic stuff set up in `~/.tmux.conf`)
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm						# Install the TMUX plugin manager.
 ```
+
+> **What about `Zellij`?**
+> [Zellij](https://zellij.dev/) is another teminal multiplexer that is similar to `tmux`, but `zellij` is to `tmux` what `nano` is to `vim`. It features onscreen guidance, but at the expense of screen space. Still, if you'd like to use that, there is no harm in giving it a try.
+> You can find it in the pacman repo: `sudo pacman -S zellij`
 
 ## File Explorers (optional)
 

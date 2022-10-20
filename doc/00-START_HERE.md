@@ -2,6 +2,8 @@
 
 ![terminal with ArchWSL running](../screenshots/ArchWSL.png)
 
+> Note: I want to make an [Arch++](https://github.com/jrcharney/ArchPlusPlus) in the future. It will be nice to cut out the middleman (Windows).
+
 **Welcome to the ArchWSL++!**  In this tutorial, you will be able to install Arch Linux in Windows Subshell for Linux using [ArchWSL](https://github.com/yuk7/ArchWSL).  In addition, some great aesthetic and functional features that most people should know about.
 
 For novice users, using Linux might seem like information overload, however, this tutorial is designed to make it more user friendly.  If you have about a couple of hours (maybe less) to spare, you can make using WSL so much more enjoyable and leverage its features to help you be more productive.
@@ -112,6 +114,7 @@ I've decided to break this tutorial in smaller parts. The parts numbered and in 
 
 1. [What to do when things won't install in ArchLinux](Part5/01-ItWontInstall.md)
 2. [What to do with `:Zone.Identifer` files](Part5/02-ItMakesZIFiles.md) - These annoying files that are generated when moving a file to a folder on WSL do have one good thing about them? A reason to make a `.gitignore` file.
+3. [What to do when WSL stops running](Part5/03-ItStopsRunning.md) - The straw the broke the camel's back. WSL is good, but using Linux is better.
 
 ### Future troubleshooting
 
