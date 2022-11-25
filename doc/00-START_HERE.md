@@ -47,7 +47,7 @@ I've decided to break this tutorial in smaller parts. The parts numbered and in 
 
 > Note: These haven't been created yet, but they could be in the future.
 
-- [Learning Resources](Part4/02-LearningResources.md) - Theres a lit of places to learn stuff. This page should list them.
+- [Learning Resources](Part4/02-LearningResources.md) - Theres a lot of places to learn stuff. This page should list them.
 - [Using Yarn](Part4/03-Yarn.md)
 - [Test Driven Development](Part4/04-TDD.md) - Node has some pretty good tools to do Test Driven Development
 - [Emmet](Part4/05-Emmet.md) - Quick shorthand commands for HTML and CSS.
