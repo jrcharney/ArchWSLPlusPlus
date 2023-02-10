@@ -19,7 +19,7 @@ sudo pacman -S task
 We can also install a couple of terminal interface programs such as `taskwarrior-tui` and `vit`.  I will add that.
 
 ```bash
-sudo pacman -S taskwarrior vit
+sudo pacman -S taskwarrior-tui vit
 ```
 
 There is also a command-line time tracking app called [timewarrior](https://timewarrior.net/) (`timew`) that integrate with `task`.
