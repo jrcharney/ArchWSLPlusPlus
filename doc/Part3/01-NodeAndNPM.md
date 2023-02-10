@@ -24,7 +24,7 @@ The `npm` package will install
 We just need to run these two lines
 
 ```
-sudo pacman -S node					# Install Node.js
+sudo pacman -S nodejs					# Install Node.js
 sudo pacman -S npm					# Install the node package manager
 ```
 
