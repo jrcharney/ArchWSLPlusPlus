@@ -197,6 +197,6 @@ BitBucket used to use a software called Mercurial, but when Atlassian bought it,
 ---
 [Up: Index](../00-START_HERE.md) &middot;
 [Prev: Taskwarrior](02-SSH.md) &middot;
-[Next: Secure Shell](04-WSLAndVSCode.md)
+[Next: WSL and VSCode](04-WSLAndVSCode.md)
 
 
