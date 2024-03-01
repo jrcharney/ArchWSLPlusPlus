@@ -31,7 +31,7 @@ There's other stuff that is likely more exciting, but I just wanted to show off 
 | `fortune-mod` | Unix Fortunes (Note: There are other packages that add other kinds of fortunes. You can add those later if you want.) |
 | `nyancat` | Display the [Nyan Cat](https://www.nyan.cat/)! (Meow!) |
 | `doge` | Much Shiba! Very Inu! |
-| `figlet`  | `figlet` is used to create ASCII banners with on of its ASCII fonts. (Note: these are not the same as the fonts (typefaces) we typically use. We'll install those later.) |
+| `figlet`  | `figlet` is used to create ASCII banners with one of its ASCII fonts. (Note: these are not the same as the fonts (typefaces) we typically use. We'll install those later.) |
 | `figlet-fonts` | Adds font files that figlet can use. You can see a list of them at [figlet.org/fontdb.cgi](http://www.figlet.org/fontdb.cgi) |
 | `figlet-fonts-extra` | More figlet fonts. |
 | `cowsay`  | Have an ASCII cow say something with a word bubble. There's also `cowthink` for thought bubbles. (Note: does not generate text output. Though it is possible to add a program that does that for accessibility.) |
